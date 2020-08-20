@@ -1,0 +1,110 @@
+---
+layout: default
+---
+<div class="container-fluid hero v5_starfield-small-night-sky pb-4">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6 hero_title">
+            <h1>{{ site.title }}</h1>
+         </div>
+         <div class="col-md-6 hero_image"><img src="{{ site.image }}" alt=""></div>
+      </div>
+   </div>
+</div>
+
+<div class="container">
+   <div class="row">
+      <div class="col-md-10 offset-md-1 welcome text-center">
+         <p>{{ site.description }}</p>
+      </div>
+   </div>
+</div>
+
+<div style="width: 100%; background-color:#FF0000; height: 35px; text-align: center; padding-top: 5px; color:#FFF">
+  <strong>This is just a proof of concept at this moment, and the collections are still being developed!</strong>
+</div>
+
+<div class="collection__wrapper">
+   <div class="container">
+
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">Primary Open Source Tooling</h2>
+         </div>
+      </div>
+
+      <div>
+        {% assign index = site.data.apis %}
+        {% assign show_tag = "Primary Tooling" %}
+        {% include tool-listing.html %}
+      </div>
+
+   </div>
+</div>
+
+<div class="container-fluid">
+   <div class="row blurb text-center">
+      <div class="col-md-12">
+         <h2>Newman Documentation</h2>
+         <p class="collection__end_p">A collection of documentation for working with Newman, and making it work with Postman when it comes to running collections.</p>
+      </div>
+      <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://postman-quick-reference-guide.readthedocs.io/en/latest/newman.html">View Documentation</a></div>
+   </div>
+</div>
+
+<div class="collection__wrapper">
+   <div class="container">
+
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">Secondary Open Source Tooling</h2>
+         </div>
+      </div>
+
+      <div>
+        {% assign index = site.data.apis %}
+        {% assign show_tag = "Secondary Tooling" %}
+        {% include tool-listing.html %}
+      </div>
+
+   </div>
+</div>
+
+<div class="container-fluid">
+   <div class="row blurb text-center">
+      <div class="col-md-12">
+         <h2>Newman on Stack Overflow</h2>
+         <p class="collection__end_p">200+ questions on Stack Overflow when it comes to Newman.</p>
+      </div>
+      <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://stackoverflow.com/questions/tagged/newman">View Questions</a></div>
+   </div>
+</div>
+
+<div class="collection__wrapper">
+   <div class="container">
+
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">Resources</h2>
+         </div>
+      </div>
+
+      <div>
+        {% assign index = site.data.apis %}
+        {% assign show_tag = "Resources" %}
+        {% include resource-listing.html %}
+      </div>
+
+   </div>
+</div>
+
+<div class="container-fluid">
+   <div class="row blurb text-center">
+      <div class="col-md-12">
+         <h2>About this Developer Toolbox</h2>
+         <p class="collection__end_p">Newman has grown organically out of the Postman ecosystem over the last couple of years, and it can be difficult to track all the moving parts, and what is happening within the community. This toolbox is meant to help organize everything Newman and make it available in a single place.</p>
+         <p>You can view a machine readable index of this API toolbox via <a href="{{ site.url }}/apis.json" target="_blank">the projects APIs.json file</a>.</p>
+      </div>
+      <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://github.com/{{ site.github_user }}/{{ site.github_repo }}">Join the Conversation on GitHub</a></div>
+   </div>
+</div>

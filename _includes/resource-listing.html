@@ -1,0 +1,30 @@
+{% for resource in index.x-resources %}
+
+  {% assign website = "none" %}
+
+  {% for property in resource.properties %}
+    {% if property.type == 'x-website' %}{% assign website = property.url %}{% endif %}
+  {% endfor %}
+
+  {% assign tag_match = 0 %}
+  {% for tag in resource.tags %}
+    {% if tag == show_tag %}{% assign tag_match = 1 %}{% endif %}
+  {% endfor %}
+
+  {% if tag_match == 1 %}
+    <div class="row collection">
+      <div class="col-md-7">
+         <div class="row collection__meta">
+            <div class="col-12 collection__title">{{ resource.name }}</div>
+            {% if resource.description != '' %}
+              <div class="col-12 collection__description">{{ resource.description }}</div>
+            {% endif %}
+          </div>
+      </div>
+      <div class="col-md-5 collection_cta">
+        <a class="btn btn__primary" href="{{ website }}">Website</a>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+<br><br>
