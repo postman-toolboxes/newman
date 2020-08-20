@@ -1,2 +1,4 @@
-# newman
-This is a toolbox for the Newman ecosystem.
+# Newman
+This is a toolbox for the Newman ecosystem, helping bring all the resources together into a single landing page.
+
+URL: https://postman-toolboxes.github.io/newman/
