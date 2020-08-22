@@ -1,9 +1,9 @@
 {% for resource in index.x-resources %}
 
-  {% assign website = "none" %}
+  {% assign website_url = "none" %}
 
   {% for property in resource.properties %}
-    {% if property.type == 'x-website' %}{% assign website = property.url %}{% endif %}
+    {% if property.type == 'x-website' %}{% assign website_url = property.url %}{% endif %}
   {% endfor %}
 
   {% assign tag_match = 0 %}
@@ -15,14 +15,16 @@
     <div class="row collection">
       <div class="col-md-7">
          <div class="row collection__meta">
-            <div class="col-12 collection__title">{{ resource.name }}</div>
-            {% if resource.description != '' %}
-              <div class="col-12 collection__description">{{ resource.description }}</div>
-            {% endif %}
+            <div class="col-12 collection__title">
+              {% if resource.image != '' %}
+                <a href="{{ website_url }}"><img src="{{ resource.image }}" width="125" align="left" style="padding: 6px;"></a>
+              {% endif %}
+              {{ resource.name }}
+            </div>
           </div>
       </div>
       <div class="col-md-5 collection_cta">
-        <a class="btn btn__primary" href="{{ website }}">Website</a>
+        <a class="btn btn__primary" href="{{ website_url }}">Website</a>
       </div>
     </div>
   {% endif %}
