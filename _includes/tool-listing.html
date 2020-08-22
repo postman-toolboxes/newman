@@ -4,6 +4,7 @@
   {% assign postman_run = "none" %}
   {% assign github_url = "none" %}
   {% assign twitter_url = "none" %}
+  {% assign website_url = "none" %}
   {% assign rating = 0 %}
 
   {% for property in tool.properties %}
@@ -11,6 +12,7 @@
     {% if property.type == 'x-github' %}{% assign github_url = property.url %}{% endif %}
     {% if property.type == 'x-twitter' %}{% assign twitter_url = property.url %}{% endif %}
     {% if property.type == 'x-rating' %}{% assign rating = property.x-data.rating %}{% endif %}
+    {% if property.type == 'x-website' %}{% assign website_url = property.url %}{% endif %}
   {% endfor %}
 
   {% assign tag_match = 0 %}
@@ -22,13 +24,25 @@
     <div class="row collection">
       <div class="col-md-7">
          <div class="row collection__meta">
-            <div class="col-12 collection__title">{{ tool.name }}</div>
-            <div class="col-12 collection__description">{{ tool.description }}</div>
+            <div class="col-12 collection__title">
+              {{ tool.name }}
+            </div>
+            <div class="col-12 collection__description">
+              {% if tool.image != '' %}
+                <a href="{{ website_url }}"><img src="{{ tool.image }}" width="200" align="left" style="padding: 10px;"></a>
+              {% endif %}
+              {{ tool.description }}
+            </div>
             <div class="col-12 collection__description"><strong>Resources:</strong> {% for tag in tool.tags %}{{ tag }}{% if forloop.last == true %}{% else %}, {% endif %}{% endfor %}</div>
          </div>
       </div>
-      <div class="col-md-5 collection_cta">
-        <a href="{{ github_url }}"><img src="https://postman-toolboxes.s3.amazonaws.com/assets/github-icon.png" align="center" width="100"></a>
+      <div class="col-md-5 collection_cta" style="vertical-align: middle">
+        {% if github_url != 'none' %}
+          <a href="{{ github_url }}" target="_blank"><img src="https://postman-toolboxes.s3.amazonaws.com/assets/github-icon.png" align="center" width="100"></a>
+        {% endif %}
+        {% if website_url != 'none' %}
+          <a href="{{ website_url }}" class="btn btn-outline-dark ts-button" target="_blank">Visit Website</a>
+        {% endif %}
       </div>
     </div>
   {% endif %}

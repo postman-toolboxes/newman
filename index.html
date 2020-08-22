@@ -45,10 +45,10 @@ layout: default
 <div class="container-fluid">
    <div class="row blurb text-center">
       <div class="col-md-12">
-         <h2>Newman Documentation</h2>
-         <p class="collection__end_p">A collection of documentation for working with Newman, and making it work with Postman when it comes to running collections.</p>
+         <h2>Newman in the Knowledge Center</h2>
+         <p class="collection__end_p">The overview of Postman from the Knowledge Center, helping you get started with Postman and Newman.</p>
       </div>
-      <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://postman-quick-reference-guide.readthedocs.io/en/latest/newman.html">View Documentation</a></div>
+      <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/">View Documentation</a></div>
    </div>
 </div>
 
@@ -85,13 +85,101 @@ layout: default
 
 			<div class="row collection__header text-center">
          <div class="col-md-12">
-            <h2 class="h1">Resources</h2>
+            <h2 class="h1">Testing Stories</h2>
          </div>
       </div>
 
       <div>
         {% assign index = site.data.apis %}
-        {% assign show_tag = "Resources" %}
+        {% assign show_tag = "Testing" %}
+        {% include resource-listing.html %}
+      </div>
+
+   </div>
+</div>
+
+<div class="container-fluid">
+   <div class="row blurb text-center">
+      <div class="col-md-12">
+         <img src="https://github.com/DannyDainton/newman-reporter-htmlextra/raw/master/examples/NewmanHtmlextraReporterLogo.png" align="center" width="150">
+         <h2>Newman HTML Reporter</h2>
+         <p class="collection__end_p">A Newman HTML reporter that has been extended to include the separation of the iteration runs so these are no longer aggregated together and also some additional handlebars helpers to enable users to create better custom templates.</p>
+      </div>
+      <div class="col-md-12 blurb_padding">
+        <a class="btn btn__secondary-light" href="https://github.com/DannyDainton/newman-reporter-htmlextra">GitHub Repo</a>
+        <a class="btn btn__secondary-light" href="https://www.npmjs.com/package/newman-reporter-htmlextra">NPM Package</a>
+      </div>
+   </div>
+</div>
+
+<div class="collection__wrapper">
+   <div class="container">
+
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">CI/CD Stories</h2>
+         </div>
+      </div>
+
+      <div>
+        {% assign index = site.data.apis %}
+        {% assign show_tag = "Testing" %}
+        {% include resource-listing.html %}
+      </div>
+
+   </div>
+</div>
+
+<div class="container-fluid">
+   <div class="row blurb text-center">
+      <div class="col-md-12">
+         <h2>Newman Quick Reference</h2>
+         <p class="collection__end_p">A collection of quick references for working with Newman, and making it work with Postman when it comes to running collections.</p>
+      </div>
+      <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://postman-quick-reference-guide.readthedocs.io/en/latest/newman.html">View Documentation</a></div>
+   </div>
+</div>
+
+<div class="collection__wrapper">
+   <div class="container">
+
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">Books</h2>
+         </div>
+      </div>
+
+      <div>
+        {% assign index = site.data.apis %}
+        {% assign show_tag = "Books" %}
+        {% include resource-listing.html %}
+      </div>
+
+   </div>
+</div>
+
+<div class="container-fluid">
+   <div class="row blurb text-center">
+      <div class="col-md-12">
+         <h2>Integrating Newman with Jenkins</h2>
+         <p class="collection__end_p">Postman contains a full-featured testing sandbox that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using Newman, the command line collection runner for Postman.</p>
+      </div>
+      <div class="col-md-12 blurb_padding"><a class="btn btn__secondary-light" href="https://learning.postman.com/docs/running-collections/using-newman-cli/integration-with-jenkins/">View Reference</a></div>
+   </div>
+</div>
+
+<div class="collection__wrapper">
+   <div class="container">
+
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">Courses</h2>
+         </div>
+      </div>
+
+      <div>
+        {% assign index = site.data.apis %}
+        {% assign show_tag = "Courses" %}
         {% include resource-listing.html %}
       </div>
 

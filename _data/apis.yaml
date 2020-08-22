@@ -10,8 +10,9 @@ specificationVersion: '0.14'
 
 x-tools:
 
-- name: Newman
+- name: Newman GitHub
   description: Newman is a command-line collection runner for Postman. It allows you to effortlessly run and test a Postman collection directly from the command-line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/newman.png
   tags:
   - Primary Tooling
   - Runner
@@ -28,7 +29,8 @@ x-tools:
     x-Tweets: getpostman
 
 - name: Newman NPM
-  description:
+  description: Newman is a command-line collection runner for Postman. It allows you to effortlessly run and test a Postman collection directly from the command-line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/newman-npm.png
   tags:
   - Primary Tooling
   - Runner
@@ -44,31 +46,14 @@ x-tools:
     email: help@postman.com
     x-Tweets: getpostman
 
-- name: Newman Docker
-  description:
-  tags:
-  - Primary Tooling
-  - Containers
-  - Docker
-  - Runners
-  - CLI
-  properties:
-  - type: x-docker-hub
-    url: https://hub.docker.com/r/postman/newman/
-  - type: x-github
-    url: https://github.com/postmanlabs/newman-docker
-  - type: x-rating
-    x-data:
-      rating: 10
-  contact:
-  - FN: Postman
-    email: help@postman.com
-    x-Tweets: getpostman
-
 - name: DannyDainton/newman-reporter-htmlextra
-  description:
+  description: A Newman HTML reporter that has been extended to include the separation of the iteration runs so these are no longer aggregated together and also some additional handlebars helpers to enable users to create better custom templates. This reporter comes with a dashboard style summary landing page and a set of different tabs which contain the detailed request information. There are also a few optional configuration flags available, to tailor the final report in a number of different ways.
+  image: https://github.com/DannyDainton/newman-reporter-htmlextra/raw/master/examples/NewmanHtmlextraReporterLogo.png
   tags:
   - Secondary Tooling
+  - HTML
+  - Reporting
+  - Testing
   properties:
   - type: x-github
     url: https://github.com/DannyDainton/newman-reporter-htmlextra
@@ -81,7 +66,8 @@ x-tools:
     x-Tweets: getpostman
 
 - name: Visual Studio Marketplace
-  description:
+  description: Using Newman, one can effortlessly run and test a Postman Collections directly from the command-line. Providing an implementation of newman that can be integrated as part of your Visual Studio IDE, run collections and API tests as part of the development process.
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/visual-studio-marketplace.png
   tags:
   - Secondary Tooling
   - Marketplace
@@ -100,7 +86,8 @@ x-tools:
     x-Tweets: getpostman
 
 - name: CircleCI Newman Orb
-  description:
+  description: While Newman ships as a Docker container, setting up these build stages can be quite time consuming. With the Newman orb for CircleCI, we have built a readymade integration where you can trigger collection runs in your CircleCI pipelines with just a configuration.
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/circleci-newman-orb.png
   tags:
   - Secondary Tooling
   - CI/CD
@@ -117,7 +104,8 @@ x-tools:
     x-Tweets: getpostman
 
 - name: Postman (Newman) Launcher (postman.jar)
-  description:
+  description: The launchers allows to recursively scan all existing .json files containing a Postman collection. Run Postman collections using newman. Analyze results from the execution and load it into XStudio. Interpret success and failures. Aggregate results into the test session. Attach results files for deeper examination by testers run a single folder within a collection if needs so. If you have existing Postman collections, we recommend that you scan them using XStudio Scan. You will be able to pick and choose the ones you want to load into your XStudio DB.
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/postman-newman-launcher-jar.png
   tags:
   - Secondary Tooling
   - Java
@@ -470,15 +458,6 @@ x-resources:
   - Testing
   - Automation
 
-- name: API Testing & API Tests Automation Using Postman & Newman
-  properties:
-  - type: x-website
-    url: https://testautomationu.applitools.com/exploring-service-apis-through-test-automation/chapter4.4.html
-  tags:
-  - Courses
-  - Testing
-  - Automation
-
 - name: Postman and Newman for Software Developers Testers and DevOps - Postman and Newman for Software Developers, Testers and DevOps
   properties:
   - type: x-website
@@ -513,6 +492,8 @@ x-resources:
     url: https://dev.to/scampiuk/using-postman-s-cli-tool-for-api-testing-newman-5fn1
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Running collections on the command line with Newman
   properties:
@@ -520,6 +501,8 @@ x-resources:
     url: https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: API Testing Using Postman and Newman
   properties:
@@ -527,6 +510,8 @@ x-resources:
     url: https://medium.com/velotio-perspectives/api-testing-using-postman-and-newman-6c68c33303fc
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: How To Use Command Line Integration With Newman In Postman?
   properties:
@@ -534,6 +519,8 @@ x-resources:
     url: https://www.softwaretestinghelp.com/postman-newman/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: A Beginner's Guide to Automated API Testing (Postman/Newman)
   properties:
@@ -541,6 +528,8 @@ x-resources:
     url: https://blog.scottlogic.com/2020/02/04/GraduateGuideToAPITesting.html
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: 6 Reasons to use Postman/Newman for API Integration Testing
   properties:
@@ -548,6 +537,8 @@ x-resources:
     url: https://www.agiletrailblazers.com/blog/modernized-technology/6-reasons-to-use-postman/newman-for-api-integration-testing
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Postman tests and how to include them in Bamboo build and deployment
   properties:
@@ -555,6 +546,8 @@ x-resources:
     url: https://rokt.com/engineering_blog/postman-tests-for-bamboo/
   tags:
   - Resources
+  - Bamboo
+  - CI/CD
 
 - name: How to Get Command Line Integration with Newman in Postman
   properties:
@@ -562,13 +555,17 @@ x-resources:
     url: https://www.blazemeter.com/blog/how-to-get-command-line-integration-with-newman-in-postman
   tags:
   - Resources
+  - Testing
+  - Automation
 
-- name: Newman for running Postman collection
+- name: Newman for Running Postman collection
   properties:
   - type: x-website
     url: https://devonblog.com/test-automation/newman-for-running-postman-collection/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Set up a CircleCI pipeline to run a Postman collection using the Newman orb
   properties:
@@ -576,6 +573,8 @@ x-resources:
     url: https://circleci.com/blog/set-up-a-circleci-pipeline-to-run-a-postman-collection-using-the-newman-orb/
   tags:
   - Resources
+  - CI/CD
+  - CircleCI
 
 - name: Newman Postman - Command Line Collection Runner
   properties:
@@ -583,6 +582,8 @@ x-resources:
     url: https://apiumhub.com/tech-blog-barcelona/newman-postman/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: What is Newman in Postman?
   properties:
@@ -590,6 +591,8 @@ x-resources:
     url: https://www.toolsqa.com/postman/what-is-newman-in-postman/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Write API Tests with Postman and Newman
   properties:
@@ -597,6 +600,8 @@ x-resources:
     url: https://scotch.io/tutorials/write-api-tests-with-postman-and-newman
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Automate Testing Your API with Postman, Newman and Jenkins (Part 1)
   properties:
@@ -604,6 +609,8 @@ x-resources:
     url: https://www.captechconsulting.com/blogs/automate-testing-your-api-with-postman-newman-and-jenkins-part-1
   tags:
   - Resources
+  - Jenkins
+  - CI/CD
 
 - name: Automate Testing Your API with Postman, Newman and Jenkins (Part 2)
   properties:
@@ -611,6 +618,8 @@ x-resources:
     url: https://www.captechconsulting.com/blogs/automate-testing-your-api-with-postman-newman-and-jenkins-part-2
   tags:
   - Resources
+  - Jenkins
+  - CI/CD
 
 - name: Automate Testing Your API with Postman, Newman and Jenkins (Part 3)
   properties:
@@ -618,6 +627,8 @@ x-resources:
     url: https://www.captechconsulting.com/blogs/automate-testing-your-api-with-postman-newman-and-jenkins-part-3
   tags:
   - Resources
+  - Jenkins
+  - CI/CD
 
 - name: Automate Testing Your API with Postman, Newman and Jenkins (Part 4)
   properties:
@@ -625,6 +636,8 @@ x-resources:
     url: https://www.captechconsulting.com/blogs/automate-testing-your-api-with-postman-newman-and-jenkins-part-4
   tags:
   - Resources
+  - Jenkins
+  - CI/CD
 
 - name: API Monitoring with Postman collection runner (Newman)
   properties:
@@ -632,6 +645,9 @@ x-resources:
     url: https://blog.liplex.de/api-monitoring-with-postman-collection-runner-newman/
   tags:
   - Resources
+  - Monitoring
+  - Testing
+  - Automation
 
 - name: Running Postman Tests in CI using Newman
   properties:
@@ -639,6 +655,8 @@ x-resources:
     url: https://blog.testproject.io/2020/07/15/running-postman-tests-in-ci-using-newman/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: End to End API Testing via Postman & Newman
   properties:
@@ -646,6 +664,8 @@ x-resources:
     url: https://itnext.io/end-to-end-api-testing-via-postman-newman-68c99f136d5e
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Postman Tutorial for Beginners with API Testing Example
   properties:
@@ -653,6 +673,8 @@ x-resources:
     url: https://www.guru99.com/postman-tutorial.html
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: How to Automate Creating API Tests for Postman with Moesif
   properties:
@@ -660,6 +682,8 @@ x-resources:
     url: https://www.moesif.com/blog/technical/api-testing/How-to-Automate-Creating-API-Tests-for-Postman-with-Moesif/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Integrate Postman with Azure DevOps
   properties:
@@ -667,6 +691,7 @@ x-resources:
     url: https://moreyeahs.com/integrate-postman-with-azure-devops/
   tags:
   - Resources
+  - DevOps
 
 - name: Automate Microservices Testing with Postman-Newman
   properties:
@@ -674,6 +699,8 @@ x-resources:
     url: https://www.linkedin.com/pulse/automate-microservices-testing-postman-newman-vaquar-khan-/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Test Driven development for API-first apps with Postman & Newman
   properties:
@@ -681,6 +708,8 @@ x-resources:
     url: https://testcollab.com/blog/test-driven-development/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Postman, Newman, Xunit Viewer And Jenkins Integration
   properties:
@@ -688,6 +717,8 @@ x-resources:
     url: https://dzone.com/articles/postman-newman-junit-viewer-jenkins-integaration
   tags:
   - Resources
+  - CI/CD
+  - Jenkins
 
 - name: Continuous Delivery – OPA and Postman, Newman and Jenkins
   properties:
@@ -695,6 +726,8 @@ x-resources:
     url: https://theopahub.com/main/continuous-development-opa-and-postman-newman-and-jenkins-1/
   tags:
   - Resources
+  - CI/CD
+  - Jenkins
 
 - name: Integrate Postman with Universal Agent
   properties:
@@ -702,6 +735,8 @@ x-resources:
     url: https://documentation.tricentis.com/qtest/od/en/content/qtest_launch/universal_agent_user_guides/integrate_postman_with_universal_agent.htm
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Automating your API testing with AWS CodeBuild, AWS CodePipeline, and Postman
   properties:
@@ -709,6 +744,8 @@ x-resources:
     url: https://aws.amazon.com/blogs/devops/automating-your-api-testing-with-aws-codebuild-aws-codepipeline-and-postman/
   tags:
   - Resources
+  - CI/CD
+  - AWS
 
 - name: Create Test Suites With Postman And Newman
   properties:
@@ -716,6 +753,8 @@ x-resources:
     url: https://kimsereylam.com/postman/2019/06/28/create-test-suites-with-postman-and-newman.html
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Continuous Integration and Testing Using Postman With Jenkins
   properties:
@@ -723,6 +762,8 @@ x-resources:
     url: https://dzone.com/articles/continuous-integration-and-testing-using-postman-w
   tags:
   - Resources
+  - CI/CD
+  - Jenkins
 
 - name: Run Postman Collection on Jenkins
   properties:
@@ -730,6 +771,8 @@ x-resources:
     url: https://www.toolsqa.com/postman/run-postman-collection-on-jenkins/
   tags:
   - Resources
+  - CI/CD
+  - Jenkins
 
 - name: How to run Postman API tests collection in Jenkins
   properties:
@@ -737,6 +780,8 @@ x-resources:
     url: https://medium.com/@julia095/how-to-run-postman-collection-in-newman-using-jenkins-73a7c64428c9
   tags:
   - Resources
+  - CI/CD
+  - Jenkins
 
 - name: Automate your API tests with Jenkins, Postman and Newman
   properties:
@@ -744,6 +789,8 @@ x-resources:
     url: https://dev.to/carleskapy/automate-your-api-tests-with-jenkins-postman-and-newman-3079
   tags:
   - Resources
+  - CI/CD
+  - Jenkins
 
 - name: Test automation for an API - Postman, Newman and Jenkins
   properties:
@@ -751,6 +798,8 @@ x-resources:
     url: https://solidgeargroup.com/en/test-automation-api/
   tags:
   - Resources
+  - CI/CD
+  - Jenkins
 
 - name: Running Postman Collection Using Newman
   properties:
@@ -758,6 +807,8 @@ x-resources:
     url: https://www.abygeorgea.com/blog/2017/08/07/running-postman-collection-using-newman/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: API testing using Postman, Newman and Teamcity
   properties:
@@ -765,6 +816,8 @@ x-resources:
     url: https://www.ie.com.au/blog/how-to-set-up-automated-api-testing-using-postman-newman-and-teamcity
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: API Testing Using Postman and Newman
   properties:
@@ -772,6 +825,8 @@ x-resources:
     url: https://www.velotio.com/engineering-blog/api-testing-postman-newman
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: API Testing With Postman- Part 1
   properties:
@@ -779,6 +834,8 @@ x-resources:
     url: https://www.axelerant.com/resources/team-blog/api-testing-with-postman
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: API Testing With Postman- Part 2
   properties:
@@ -786,6 +843,8 @@ x-resources:
     url: https://www.axelerant.com/resources/team-blog/api-testing-with-postman-part-2
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: API Testing With Postman- Part 3
   properties:
@@ -793,6 +852,8 @@ x-resources:
     url: https://www.axelerant.com/resources/team-blog/api-testing-with-postman-part-3
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Using Postman with Newman to automate your API tests
   properties:
@@ -800,6 +861,8 @@ x-resources:
     url: https://shanecarroll.com/using-postman-with-newman-to-automate-your-api-tests/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: How to Integrate API Tests with Postman and Newman
   properties:
@@ -807,6 +870,8 @@ x-resources:
     url: https://www.winwire.com/api-testing-using-postman-newman/
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Run and Test Postman Collections Directly from the Command Line with Newman
   properties:
@@ -814,6 +879,8 @@ x-resources:
     url: https://www.programmableweb.com/news/run-and-test-postman-collections-directly-command-line-newman/brief/2018/06/22
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: Paginate Records using an Advanced Postman Collection
   properties:
@@ -821,6 +888,8 @@ x-resources:
     url: https://www.ateam-oracle.com/paginate-records-using-an-advanced-postman-collection
   tags:
   - Resources
+  - Testing
+  - Automation
 
 - name: How to automate REST API end-to-end tests in a CI environment with Postman and Newman
   properties:
@@ -828,6 +897,8 @@ x-resources:
     url: https://www.freecodecamp.org/news/how-to-automate-rest-api-end-to-end-tests/
   tags:
   - Resources
+  - CI/CD
+  - Jenkins
 
 - name: How To Perform API Testing In Postman & Newman Tools?
   properties:
@@ -835,6 +906,8 @@ x-resources:
     url: https://www.impigertech.com/resources/blogs/how-to-perform-api-testing-in-postman
   tags:
   - Resources
+  - Testing
+  - Automation
 
 maintainers:
 - FN: Postman
