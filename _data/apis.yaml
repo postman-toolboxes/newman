@@ -123,6 +123,7 @@ x-tools:
 
 - name: thirumurugan19/newman-circleci
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/thirumurugan19-newman-circleci.jpg
   tags:
   - Secondary Tooling
   - CI/CD
@@ -140,6 +141,7 @@ x-tools:
 
 - name: fixate/jest-runner-newman
   description:
+  iamge: https://postman-toolboxes.s3.amazonaws.com/assets/newman/fixate-jest-runner-newman.jpg
   tags:
   - Secondary Tooling
   - Testing
@@ -157,6 +159,7 @@ x-tools:
 
 - name: DannyDainton/postman-ci-pipeline-example
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/dannydainton- postman-ci-pipeline-example.jpg
   tags:
   - Secondary Tooling
   - CI/CD
@@ -175,6 +178,7 @@ x-tools:
 
 - name: Mgutjahr/serverless-newman
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/mgutjahr -serverless-newman.jpg
   tags:
   - Secondary Tooling
   - Serverless
@@ -191,6 +195,7 @@ x-tools:
 
 - name: spetacular/newman-smoking-test
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/spetacular-newman-smoking-test.jpg
   tags:
   - Secondary Tooling
   - Testing
@@ -207,6 +212,7 @@ x-tools:
 
 - name: wojciech-zurek/newman-ci
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/wojciech-zurek-newman-ci.jpg
   tags:
   - Secondary Tooling
   - CI/CD
@@ -224,6 +230,7 @@ x-tools:
 
 - name: matt-ball/newman-reporter-csv
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/matt-ball-newman-reporter-csv.jpg
   tags:
   - Secondary Tooling
   - CI/CD
@@ -240,7 +247,8 @@ x-tools:
     x-Tweets: getpostman
 
 - name: prakhar1989/grunt-newman
-  description:
+  description: https://postman-toolboxes.s3.amazonaws.com/assets/newman/prakhar1989-grunt-newman.jpg
+  image:
   tags:
   - Secondary Tooling
   - Packages
@@ -257,6 +265,7 @@ x-tools:
 
 - name: avidit/newman-reporter-slack
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/avidit-newman-reporter-slack.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -274,6 +283,7 @@ x-tools:
 
 - name: cake-contrib/Cake.Newman
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/cake-contrib-cake.newman.jpg
   tags:
   - Secondary Tooling
   properties:
@@ -289,6 +299,7 @@ x-tools:
 
 - name: DannyDainton/basic-newman-slack-bot
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/dannydainton-basic-newman-slack-bot.jpg
   tags:
   - Secondary Tooling
   properties:
@@ -304,6 +315,7 @@ x-tools:
 
 - name: cameronoxley/Newman-to-Slack
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/cameronoxley-newman-to-slack.jpg
   tags:
   - Secondary Tooling
   - Slack
@@ -320,6 +332,7 @@ x-tools:
 
 - name: m4nu56/newman-parallel-run
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/m4nu56-newman-parallel-run.jpg
   tags:
   - Secondary Tooling
   - Runners
@@ -336,6 +349,7 @@ x-tools:
 
 - name: billylam/newman-reporter-testrail
   description:
+  image: https://postman-toolboxes.s3 .amazonaws.com/assets/newman/billylam-newman-reporter-testrail.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -352,6 +366,7 @@ x-tools:
 
 - name: leafle/newman-reporter-teamcity
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/leafle-newman-reporter-teamcity.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -368,6 +383,7 @@ x-tools:
 
 - name: JamesMessinger/postman-bdd
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/jamesmessinger-postman-bdd.jpg
   tags:
   - Secondary Tooling
   - Testing
@@ -385,6 +401,7 @@ x-tools:
 
 - name: matt-ball/newman-action
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/matt-ball-newman-action.jpg
   tags:
   - Secondary Tooling
   - GitHub
@@ -402,6 +419,7 @@ x-tools:
 
 - name: postmanlabs/newman-reporter-html
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/postmanlabs-newman-reporter-html.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -418,6 +436,7 @@ x-tools:
 
 - name: MarcosEllys/awesome-newman-html-template
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/marcosellys-awesome-newman-html-template.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -434,6 +453,7 @@ x-tools:
 
 - name: carlowahlstedt/NewmanPostman_VSTS_Task
   description:
+  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/carlowahlstedt-newmanpostman_vsts_task.jpg
   tags:
   - Secondary Tooling
   properties:
