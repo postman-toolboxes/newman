@@ -12,7 +12,7 @@ x-tools:
 
 - name: Newman GitHub
   description: Newman is a command-line collection runner for Postman. It allows you to effortlessly run and test a Postman collection directly from the command-line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/newman.png
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/newman.png
   tags:
   - Primary Tooling
   - Runner
@@ -31,7 +31,7 @@ x-tools:
 
 - name: Newman NPM
   description: Newman is a command-line collection runner for Postman. It allows you to effortlessly run and test a Postman collection directly from the command-line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/newman-npm.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/newman-npm.jpg
   tags:
   - Primary Tooling
   - Runner
@@ -70,7 +70,7 @@ x-tools:
 
 - name: Visual Studio Marketplace
   description: Using Newman, one can effortlessly run and test a Postman Collections directly from the command-line. Providing an implementation of newman that can be integrated as part of your Visual Studio IDE, run collections and API tests as part of the development process.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/visual-studio-marketplace.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/visual-studio-marketplace.jpg
   tags:
   - Secondary Tooling
   - Marketplace
@@ -91,7 +91,7 @@ x-tools:
 
 - name: CircleCI Newman Orb
   description: While Newman ships as a Docker container, setting up these build stages can be quite time consuming. With the Newman orb for CircleCI, we have built a readymade integration where you can trigger collection runs in your CircleCI pipelines with just a configuration.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/circleci-newman-orb.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/circleci-newman-orb.jpg
   tags:
   - Secondary Tooling
   - CI/CD
@@ -110,7 +110,7 @@ x-tools:
 
 - name: Postman (Newman) Launcher (postman.jar)
   description: The launchers allows to recursively scan all existing .json files containing a Postman collection. Run Postman collections using newman. Analyze results from the execution and load it into XStudio. Interpret success and failures. Aggregate results into the test session. Attach results files for deeper examination by testers run a single folder within a collection if needs so. If you have existing Postman collections, we recommend that you scan them using XStudio Scan. You will be able to pick and choose the ones you want to load into your XStudio DB.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/postman-newman-launcher-jar.png
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/postman-newman-launcher-jar.png
   tags:
   - Secondary Tooling
   - Java
@@ -129,7 +129,7 @@ x-tools:
 
 - name: thirumurugan19/newman-circleci
   description: Integrate API tests with Postman, Newman, and CircleCI.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/thirumurugan19-newman-circleci.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/thirumurugan19-newman-circleci.jpg
   tags:
   - Secondary Tooling
   - CI/CD
@@ -148,7 +148,7 @@ x-tools:
 
 - name: fixate/jest-runner-newman
   description: A Jest runner for Postman's Newman CLI tool. Easily run automated tests for your Postman collections using Newman and Jest.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/fixate-jest-runner-newman.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/fixate-jest-runner-newman.jpg
   tags:
   - Secondary Tooling
   - Testing
@@ -167,7 +167,7 @@ x-tools:
 
 - name: DannyDainton/postman-ci-pipeline-example
   description: This is very simple project to demonstrate using Newman to run a Postman collections through some of the different CI systems. There are a number of different ways that you can use Newman in these CI systems.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/dannydainton-postman-ci-pipeline-example.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/dannydainton-postman-ci-pipeline-example.jpg
   tags:
   - Secondary Tooling
   - CI/CD
@@ -187,7 +187,7 @@ x-tools:
 
 - name: Mgutjahr/serverless-newman
   description: A serverless project that executes postman tests via newman in AWS lambda and writes test results to cloudwatch logs using winston. The lamdba will return with an error if the test fails / does not complete.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/mgutjahr-serverless-newman.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/mgutjahr-serverless-newman.jpg
   tags:
   - Secondary Tooling
   - Serverless
@@ -205,7 +205,7 @@ x-tools:
 
 - name: matt-ball/newman-reporter-csv
   description: Add CSV reports to your Newman runs. Each request in a collection run maps to a row in the outputted CSV file with a specific file structure.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/matt-ball-newman-reporter-csv.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/matt-ball-newman-reporter-csv.jpg
   tags:
   - Secondary Tooling
   - CI/CD
@@ -224,7 +224,7 @@ x-tools:
 
 - name: prakhar1989/grunt-newman
   description: Grunt plugin for Newman - The collection runner for Postman. Providing automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you've configured it through a Gruntfile, a task runner can do most of that mundane work for you—and your team—with basically zero effort.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/prakhar1989-grunt-newman.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/prakhar1989-grunt-newman.jpg
   tags:
   - Secondary Tooling
   - Packages
@@ -242,7 +242,7 @@ x-tools:
 
 - name: avidit/newman-reporter-slack
   description: A newman reporter for slack. Reporter option can be set as environment variables or from reporter options arguments. Piping the results of your collection runs into Slack, allowing team members to see the results of tests, monitors, and other ways in which they are using Posstman.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/avidit-newman-reporter-slack.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/avidit-newman-reporter-slack.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -261,7 +261,7 @@ x-tools:
 
 - name: cake-contrib/Cake.Newman
   description: A simple Cake addin powered by Newman to run (and test) Postman Collections. You can find documentation either on Cake's site or here on GitHub. This should be enough to get started with Newman even if you're not familiar with the CLI. You may find Newman's documentation helpful as well, which can also be found on GitHub.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/cake-contrib-cake.newman.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/cake-contrib-cake.newman.jpg
   tags:
   - Secondary Tooling
   images:
@@ -278,7 +278,7 @@ x-tools:
 
 - name: DannyDainton/basic-newman-slack-bot
   description: Runs a Newman test script and outputs the summary to a Slack webhook. Allowing you to run collections and post the results to Slack, providing bot capabilities driven by Postman collections. It can be used for testing or anyt other purpose you might run a collection for.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/dannydainton-basic-newman-slack-bot.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/dannydainton-basic-newman-slack-bot.jpg
   tags:
   - Secondary Tooling
   images:
@@ -295,7 +295,7 @@ x-tools:
 
 - name: cameronoxley/Newman-to-Slack
   description: Runs a Newman test script and outputs the summary to a Slack webhook. Providing another look at how collections can be executed using newman and pushed to Slack, so that collection run results can be shared with other team members in the messaging environment they are already paying attention to.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/newman-slack.png
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/newman-slack.png
   tags:
   - Secondary Tooling
   - Slack
@@ -313,7 +313,7 @@ x-tools:
 
 - name: m4nu56/newman-parallel-run
   description: A known limitation of the Postman Collection Runner is that it can only execute collection in a consecutive way. This is just a simple implementation of the solution explained in this StackOverflow conversation.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/m4nu56-newman-parallel-run.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/m4nu56-newman-parallel-run.jpg
   tags:
   - Secondary Tooling
   - Runners
@@ -331,7 +331,7 @@ x-tools:
 
 - name: billylam/newman-reporter-testrail
   description: TestRail reporter for Newman. Providing a complete web-based test case management solution to efficiently manage, track, and organize your software testing efforts. Allowing QA teams to further automate and drive their testing workflows.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/billylam-newman-reporter-testrail.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/billylam-newman-reporter-testrail.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -349,7 +349,7 @@ x-tools:
 
 - name: leafle/newman-reporter-teamcity
   description: A newman reporter for TeamCity. See the newman documentation for more info. Automating routine checks and corrections, our tools speed up production, freeing developers to grow, discover and create. Leveraging Newman as part of a regular CI/CD pipeline and development workflow.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/leafle-newman-reporter-teamcity.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/leafle-newman-reporter-teamcity.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -367,7 +367,7 @@ x-tools:
 
 - name: matt-ball/newman-action
   description: Allows you to run Postman's headless collction runner, Newman, via a GitHub Action meaning no config of the Newman lib itself. This action supports multiple ways of retrieving your Postman collections/environments. The latest version of your collection and/or environment is available through Postman's API. The API docs contain endpoints that will allow you to retrieve the required IDs. Passing these IDs along with your Postman API key will run Newman in this method. See Creating and using secrets for how to add your Postman API to GitHub securely.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/matt-ball-newman-action.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/matt-ball-newman-action.jpg
   tags:
   - Secondary Tooling
   - GitHub
@@ -386,7 +386,7 @@ x-tools:
 
 - name: postmanlabs/newman-reporter-html
   description: HTML reporter for Newman that provides the information about the collection run in HTML format. This needs to be used in conjunction with Newman so that it can recognize HTML reporting options.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/postmanlabs-newman-reporter-html.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/postmanlabs-newman-reporter-html.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -404,7 +404,7 @@ x-tools:
 
 - name: MarcosEllys/awesome-newman-html-template
   description: A newman html report template which contains request and response details (body plus http headers) in the report. Built with the world's most popular front-end component library. Powerful Report section. Amazing Requests section. Powerful Fuzzy search library. With a modern library to copy text to clipboard.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/marcosellys-awesome-newman-html-template.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/marcosellys-awesome-newman-html-template.jpg
   tags:
   - Secondary Tooling
   - Reporting
@@ -422,7 +422,7 @@ x-tools:
 
 - name: carlowahlstedt/NewmanPostman_VSTS_Task
   description: Using Newman, one can effortlessly run and test a Postman Collections directly from the command-line. Now in a task! You can include this task in a build or release pipeline. The source to this extension is available. Feel free to take, fork, and extend. If you use a Postman Enterprise account workspace check out this task to use in a pipeline. Here's the post explaining it from the tasks author.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/carlowahlstedt-newmanpostman_vsts_task.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/carlowahlstedt-newmanpostman_vsts_task.jpg
   tags:
   - Secondary Tooling
   images:
@@ -440,7 +440,7 @@ x-tools:
 x-resources:
 
 - name: API Testing & API Tests Automation Using Postman & Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/api-testing-&-api-tests-automation-using-postman-&-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/api-testing-&-api-tests-automation-using-postman-&-newman.jpg
   properties:
   - type: x-website
     url: https://www.udemy.com/course/api-testing-and-api-tests-automation-using-postman-newman/
@@ -450,7 +450,7 @@ x-resources:
   - Automation
 
 - name: Postman and Newman for Software Developers Testers and DevOps - Postman and Newman for Software Developers, Testers and DevOps
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/postman-and-newman-for-software-developers-testers-and-devops---postman-and-newman-for-software-developers,-testers-and-devops.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/postman-and-newman-for-software-developers-testers-and-devops---postman-and-newman-for-software-developers,-testers-and-devops.jpg
   properties:
   - type: x-website
     url: https://www.examcollection.com/tutorials/postman-and-newman-for-software-developers-testers-and-devops.html
@@ -461,7 +461,7 @@ x-resources:
   - Automation
 
 - name: Continuous Integration, Delivery, and Deployment
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/continuous-integration,-delivery,-and-deployment.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/continuous-integration,-delivery,-and-deployment.jpg
   properties:
   - type: x-website
     url: https://books.google.com/books?id=1xhKDwAAQBAJ&pg=PA393&lpg=PA393&dq=postman+newman&source=bl&ots=GGlL8rBx6f&sig=ACfU3U27bR5rl_n1vDzx3BvCydczRN5Owg&hl=en&sa=X&ved=2ahUKEwjAuMWlyqjrAhXbIzQIHRTwAdg4RhDoATABegQICRAB#v=onepage&q=postman%20newman&f=false
@@ -472,7 +472,7 @@ x-resources:
   - Deployment
 
 - name: Learning DevOps
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/learning-devops.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/learning-devops.jpg
   properties:
   - type: x-website
     url: https://books.google.com/books?id=vDa6DwAAQBAJ&pg=PA305&lpg=PA305&dq=postman+newman&source=bl&ots=s7aXEJ9r56&sig=ACfU3U3ATWGPV9udpQ7EJf2b3uPPQnpflQ&hl=en&sa=X&ved=2ahUKEwjKwbORyqjrAhVeIDQIHXzZBZY4PBDoATAHegQIARAB#v=onepage&q=postman%20newman&f=false
@@ -481,7 +481,7 @@ x-resources:
   - DevOps
 
 - name: Using Postman's CLI tool for API testing - newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/using-postman's-cli-tool-for-api-testing---newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/using-postman's-cli-tool-for-api-testing---newman.jpg
   properties:
   - type: x-website
     url: https://dev.to/scampiuk/using-postman-s-cli-tool-for-api-testing-newman-5fn1
@@ -491,7 +491,7 @@ x-resources:
   - Automation
 
 - name: Running collections on the command line with Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/running-collections-on-the-command-line-with-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/running-collections-on-the-command-line-with-newman.jpg
   properties:
   - type: x-website
     url: https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/
@@ -501,7 +501,7 @@ x-resources:
   - Automation
 
 - name: API Testing Using Postman and Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/api-testing-using-postman-and-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/api-testing-using-postman-and-newman.jpg
   properties:
   - type: x-website
     url: https://medium.com/velotio-perspectives/api-testing-using-postman-and-newman-6c68c33303fc
@@ -511,7 +511,7 @@ x-resources:
   - Automation
 
 - name: How To Use Command Line Integration With Newman In Postman?
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/how-to-use-command-line-integration-with-newman-in-postman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/how-to-use-command-line-integration-with-newman-in-postman.jpg
   properties:
   - type: x-website
     url: https://www.softwaretestinghelp.com/postman-newman/
@@ -521,7 +521,7 @@ x-resources:
   - Automation
 
 - name: A Beginner's Guide to Automated API Testing (Postman/Newman)
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/a-beginner's-guide-to-automated-api-testing-postman-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/a-beginner's-guide-to-automated-api-testing-postman-newman.jpg
   properties:
   - type: x-website
     url: https://blog.scottlogic.com/2020/02/04/GraduateGuideToAPITesting.html
@@ -531,7 +531,7 @@ x-resources:
   - Automation
 
 - name: 6 Reasons to use Postman/Newman for API Integration Testing
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/6-reasons-to-use-postman-newman-for-api-integration-testing.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/6-reasons-to-use-postman-newman-for-api-integration-testing.jpg
   properties:
   - type: x-website
     url: https://www.agiletrailblazers.com/blog/modernized-technology/6-reasons-to-use-postman/newman-for-api-integration-testing
@@ -541,7 +541,7 @@ x-resources:
   - Automation
 
 - name: Postman tests and how to include them in Bamboo build and deployment
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/postman-tests-and-how-to-include-them-in-bamboo-build-and-deployment.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/postman-tests-and-how-to-include-them-in-bamboo-build-and-deployment.jpg
   properties:
   - type: x-website
     url: https://rokt.com/engineering_blog/postman-tests-for-bamboo/
@@ -551,7 +551,7 @@ x-resources:
   - CI/CD
 
 - name: How to Get Command Line Integration with Newman in Postman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/how-to-get-command-line-integration-with-newman-in-postman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/how-to-get-command-line-integration-with-newman-in-postman.jpg
   properties:
   - type: x-website
     url: https://www.blazemeter.com/blog/how-to-get-command-line-integration-with-newman-in-postman
@@ -561,7 +561,7 @@ x-resources:
   - Automation
 
 - name: Newman for Running Postman collection
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/how-to-get-command-line-integration-with-newman-in-postman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/how-to-get-command-line-integration-with-newman-in-postman.jpg
   properties:
   - type: x-website
     url: https://devonblog.com/test-automation/newman-for-running-postman-collection/
@@ -571,7 +571,7 @@ x-resources:
   - Automation
 
 - name: Set up a CircleCI pipeline to run a Postman collection using the Newman orb
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/set-up-a-circleci-pipeline-to-run-a-postman-collection-using-the-newman-orb.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/set-up-a-circleci-pipeline-to-run-a-postman-collection-using-the-newman-orb.jpg
   properties:
   - type: x-website
     url: https://circleci.com/blog/set-up-a-circleci-pipeline-to-run-a-postman-collection-using-the-newman-orb/
@@ -581,7 +581,7 @@ x-resources:
   - CircleCI
 
 - name: Newman Postman - Command Line Collection Runner
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/newman-postman---command-line-collection-runner.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/newman-postman---command-line-collection-runner.jpg
   properties:
   - type: x-website
     url: https://apiumhub.com/tech-blog-barcelona/newman-postman/
@@ -591,7 +591,7 @@ x-resources:
   - Automation
 
 - name: What is Newman in Postman?
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/what-is-newman-in-postman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/what-is-newman-in-postman.jpg
   properties:
   - type: x-website
     url: https://www.toolsqa.com/postman/what-is-newman-in-postman/
@@ -601,7 +601,7 @@ x-resources:
   - Automation
 
 - name: Write API Tests with Postman and Newman
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/write-api-tests-with-postman-and-newman.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/write-api-tests-with-postman-and-newman.jpg
   properties:
   - type: x-website
     url: https://scotch.io/tutorials/write-api-tests-with-postman-and-newman
@@ -611,7 +611,7 @@ x-resources:
   - Automation
 
 - name: Automate Testing Your API with Postman, Newman and Jenkins (Part 1)
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/automate-testing-your-api-with-postman,-newman-and-jenkins-part-1.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/automate-testing-your-api-with-postman,-newman-and-jenkins-part-1.jpg
   properties:
   - type: x-website
     url: https://www.captechconsulting.com/blogs/automate-testing-your-api-with-postman-newman-and-jenkins-part-1
@@ -621,7 +621,7 @@ x-resources:
   - CI/CD
 
 - name: Automate Testing Your API with Postman, Newman and Jenkins (Part 2)
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/automate-testing-your-api-with-postman,-newman-and-jenkins-part-2.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/automate-testing-your-api-with-postman,-newman-and-jenkins-part-2.jpg
   properties:
   - type: x-website
     url: https://www.captechconsulting.com/blogs/automate-testing-your-api-with-postman-newman-and-jenkins-part-2
@@ -631,7 +631,7 @@ x-resources:
   - CI/CD
 
 - name: Automate Testing Your API with Postman, Newman and Jenkins (Part 3)
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/automate-testing-your-api-with-postman,-newman-and-jenkins-part-3.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/automate-testing-your-api-with-postman,-newman-and-jenkins-part-3.jpg
   properties:
   - type: x-website
     url: https://www.captechconsulting.com/blogs/automate-testing-your-api-with-postman-newman-and-jenkins-part-3
@@ -641,7 +641,7 @@ x-resources:
   - CI/CD
 
 - name: Automate Testing Your API with Postman, Newman and Jenkins (Part 4)
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/automate-testing-your-api-with-postman,-newman-and-jenkins-part-4.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/automate-testing-your-api-with-postman,-newman-and-jenkins-part-4.jpg
   properties:
   - type: x-website
     url: https://www.captechconsulting.com/blogs/automate-testing-your-api-with-postman-newman-and-jenkins-part-4
@@ -651,7 +651,7 @@ x-resources:
   - CI/CD
 
 - name: API Monitoring with Postman collection runner (Newman)
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/api-monitoring-with-postman-collection-runner-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/api-monitoring-with-postman-collection-runner-newman.jpg
   properties:
   - type: x-website
     url: https://blog.liplex.de/api-monitoring-with-postman-collection-runner-newman/
@@ -662,7 +662,7 @@ x-resources:
   - Automation
 
 - name: Running Postman Tests in CI using Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/running-postman-tests-in-ci-using-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/running-postman-tests-in-ci-using-newman.jpg
   properties:
   - type: x-website
     url: https://blog.testproject.io/2020/07/15/running-postman-tests-in-ci-using-newman/
@@ -672,7 +672,7 @@ x-resources:
   - Automation
 
 - name: End to End API Testing via Postman & Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/end-to-end-api-testing-via-postman-&-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/end-to-end-api-testing-via-postman-&-newman.jpg
   properties:
   - type: x-website
     url: https://itnext.io/end-to-end-api-testing-via-postman-newman-68c99f136d5e
@@ -682,7 +682,7 @@ x-resources:
   - Automation
 
 - name: Postman Tutorial for Beginners with API Testing Example
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/postman-tutorial-for-beginners-with-api-testing-example.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/postman-tutorial-for-beginners-with-api-testing-example.jpg
   properties:
   - type: x-website
     url: https://www.guru99.com/postman-tutorial.html
@@ -692,7 +692,7 @@ x-resources:
   - Automation
 
 - name: How to Automate Creating API Tests for Postman with Moesif
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/how-to-automate-creating-api-tests-for-postman-with-moesif.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/how-to-automate-creating-api-tests-for-postman-with-moesif.jpg
   properties:
   - type: x-website
     url: https://www.moesif.com/blog/technical/api-testing/How-to-Automate-Creating-API-Tests-for-Postman-with-Moesif/
@@ -702,7 +702,7 @@ x-resources:
   - Automation
 
 - name: Integrate Postman with Azure DevOps
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/integrate-postman-with-azure-devops.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/integrate-postman-with-azure-devops.jpg
   properties:
   - type: x-website
     url: https://moreyeahs.com/integrate-postman-with-azure-devops/
@@ -711,7 +711,7 @@ x-resources:
   - DevOps
 
 - name: Automate Microservices Testing with Postman-Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/automate-microservices-testing-with-postman-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/automate-microservices-testing-with-postman-newman.jpg
   properties:
   - type: x-website
     url: https://www.linkedin.com/pulse/automate-microservices-testing-postman-newman-vaquar-khan-/
@@ -721,7 +721,7 @@ x-resources:
   - Automation
 
 - name: Test Driven development for API-first apps with Postman & Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/test-driven-development-for-api-first-apps-with-postman-&-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/test-driven-development-for-api-first-apps-with-postman-&-newman.jpg
   properties:
   - type: x-website
     url: https://testcollab.com/blog/test-driven-development/
@@ -731,7 +731,7 @@ x-resources:
   - Automation
 
 - name: Postman, Newman, Xunit Viewer And Jenkins Integration
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/postman,-newman,-xunit-viewer-and-jenkins-integration.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/postman,-newman,-xunit-viewer-and-jenkins-integration.jpg
   properties:
   - type: x-website
     url: https://dzone.com/articles/postman-newman-junit-viewer-jenkins-integaration
@@ -741,7 +741,7 @@ x-resources:
   - Jenkins
 
 - name: Continuous Delivery – OPA and Postman, Newman and Jenkins
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/continuous-delivery-–-opa-and-postman,-newman-and-jenkins.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/continuous-delivery-–-opa-and-postman,-newman-and-jenkins.jpg
   properties:
   - type: x-website
     url: https://theopahub.com/main/continuous-development-opa-and-postman-newman-and-jenkins-1/
@@ -751,7 +751,7 @@ x-resources:
   - Jenkins
 
 - name: Integrate Postman with Universal Agent
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/integrate-postman-with-universal-agent.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/integrate-postman-with-universal-agent.jpg
   properties:
   - type: x-website
     url: https://documentation.tricentis.com/qtest/od/en/content/qtest_launch/universal_agent_user_guides/integrate_postman_with_universal_agent.htm
@@ -761,7 +761,7 @@ x-resources:
   - Automation
 
 - name: Automating your API testing with AWS CodeBuild, AWS CodePipeline, and Postman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/automating-your-api-testing-with-aws-codebuild,-aws-codepipeline,-and-postman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/automating-your-api-testing-with-aws-codebuild,-aws-codepipeline,-and-postman.jpg
   properties:
   - type: x-website
     url: https://aws.amazon.com/blogs/devops/automating-your-api-testing-with-aws-codebuild-aws-codepipeline-and-postman/
@@ -771,7 +771,7 @@ x-resources:
   - AWS
 
 - name: Create Test Suites With Postman And Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/create-test-suites-with-postman-and-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/create-test-suites-with-postman-and-newman.jpg
   properties:
   - type: x-website
     url: https://kimsereylam.com/postman/2019/06/28/create-test-suites-with-postman-and-newman.html
@@ -781,7 +781,7 @@ x-resources:
   - Automation
 
 - name: Continuous Integration and Testing Using Postman With Jenkins
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/continuous-integration-and-testing-using-postman-with-jenkins.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/continuous-integration-and-testing-using-postman-with-jenkins.jpg
   properties:
   - type: x-website
     url: https://dzone.com/articles/continuous-integration-and-testing-using-postman-w
@@ -791,7 +791,7 @@ x-resources:
   - Jenkins
 
 - name: Run Postman Collection on Jenkins
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/run-postman-collection-on-jenkins.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/run-postman-collection-on-jenkins.jpg
   properties:
   - type: x-website
     url: https://www.toolsqa.com/postman/run-postman-collection-on-jenkins/
@@ -801,7 +801,7 @@ x-resources:
   - Jenkins
 
 - name: How to run Postman API tests collection in Jenkins
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/how-to-run-postman-api-tests-collection-in-jenkins.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/how-to-run-postman-api-tests-collection-in-jenkins.jpg
   properties:
   - type: x-website
     url: https://medium.com/@julia095/how-to-run-postman-collection-in-newman-using-jenkins-73a7c64428c9
@@ -811,7 +811,7 @@ x-resources:
   - Jenkins
 
 - name: Automate your API tests with Jenkins, Postman and Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/automate-your-api-tests-with-jenkins,-postman-and-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/automate-your-api-tests-with-jenkins,-postman-and-newman.jpg
   properties:
   - type: x-website
     url: https://dev.to/carleskapy/automate-your-api-tests-with-jenkins-postman-and-newman-3079
@@ -821,7 +821,7 @@ x-resources:
   - Jenkins
 
 - name: Test automation for an API - Postman, Newman and Jenkins
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/test-automation-for-an-api---postman,-newman-and-jenkins.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/test-automation-for-an-api---postman,-newman-and-jenkins.jpg
   properties:
   - type: x-website
     url: https://solidgeargroup.com/en/test-automation-api/
@@ -831,7 +831,7 @@ x-resources:
   - Jenkins
 
 - name: Running Postman Collection Using Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/running-postman-collection-using-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/running-postman-collection-using-newman.jpg
   properties:
   - type: x-website
     url: https://www.abygeorgea.com/blog/2017/08/07/running-postman-collection-using-newman/
@@ -841,7 +841,7 @@ x-resources:
   - Automation
 
 - name: API testing using Postman, Newman and Teamcity
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/api-testing-using-postman,-newman-and-teamcity.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/api-testing-using-postman,-newman-and-teamcity.jpg
   properties:
   - type: x-website
     url: https://www.ie.com.au/blog/how-to-set-up-automated-api-testing-using-postman-newman-and-teamcity
@@ -851,7 +851,7 @@ x-resources:
   - Automation
 
 - name: API Testing Using Postman and Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/api-testing-using-postman-and-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/api-testing-using-postman-and-newman.jpg
   properties:
   - type: x-website
     url: https://www.velotio.com/engineering-blog/api-testing-postman-newman
@@ -861,7 +861,7 @@ x-resources:
   - Automation
 
 - name: API Testing With Postman- Part 1
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/api-testing-with-postman--part-1.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/api-testing-with-postman--part-1.jpg
   properties:
   - type: x-website
     url: https://www.axelerant.com/resources/team-blog/api-testing-with-postman
@@ -871,7 +871,7 @@ x-resources:
   - Automation
 
 - name: API Testing With Postman- Part 2
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/api-testing-with-postman--part-2.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/api-testing-with-postman--part-2.jpg
   properties:
   - type: x-website
     url: https://www.axelerant.com/resources/team-blog/api-testing-with-postman-part-2
@@ -881,7 +881,7 @@ x-resources:
   - Automation
 
 - name: API Testing With Postman- Part 3
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/api-testing-with-postman--part-3.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/api-testing-with-postman--part-3.jpg
   properties:
   - type: x-website
     url: https://www.axelerant.com/resources/team-blog/api-testing-with-postman-part-3
@@ -891,7 +891,7 @@ x-resources:
   - Automation
 
 - name: Using Postman with Newman to automate your API tests
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/using-postman-with-newman-to-automate-your-api-tests.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/using-postman-with-newman-to-automate-your-api-tests.jpg
   properties:
   - type: x-website
     url: https://shanecarroll.com/using-postman-with-newman-to-automate-your-api-tests/
@@ -901,7 +901,7 @@ x-resources:
   - Automation
 
 - name: How to Integrate API Tests with Postman and Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/how-to-integrate-api-tests-with-postman-and-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/how-to-integrate-api-tests-with-postman-and-newman.jpg
   properties:
   - type: x-website
     url: https://www.winwire.com/api-testing-using-postman-newman/
@@ -911,7 +911,7 @@ x-resources:
   - Automation
 
 - name: Run and Test Postman Collections Directly from the Command Line with Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/run-and-test-postman-collections-directly-from-the-command-line-with-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/run-and-test-postman-collections-directly-from-the-command-line-with-newman.jpg
   properties:
   - type: x-website
     url: https://www.programmableweb.com/news/run-and-test-postman-collections-directly-command-line-newman/brief/2018/06/22
@@ -921,7 +921,7 @@ x-resources:
   - Automation
 
 - name: Paginate Records using an Advanced Postman Collection
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/paginate-records-using-an-advanced-postman-collection.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/paginate-records-using-an-advanced-postman-collection.jpg
   properties:
   - type: x-website
     url: https://www.ateam-oracle.com/paginate-records-using-an-advanced-postman-collection
@@ -931,7 +931,7 @@ x-resources:
   - Automation
 
 - name: How to automate REST API end-to-end tests in a CI environment with Postman and Newman
-  image: http://postman-toolboxes.s3.amazonaws.com/assets/newman/how-to-automate-rest-api-end-to-end-tests-in-a-ci-environment-with-postman-and-newman.jpg
+  image: http://postman-toolboxes2.s3.amazonaws.com/assets/newman/how-to-automate-rest-api-end-to-end-tests-in-a-ci-environment-with-postman-and-newman.jpg
   properties:
   - type: x-website
     url: https://www.freecodecamp.org/news/how-to-automate-rest-api-end-to-end-tests/
@@ -941,7 +941,7 @@ x-resources:
   - Jenkins
 
 - name: How To Perform API Testing In Postman & Newman Tools?
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/newman/how-to-perform-api-testing-in-postman-newman-tools.png
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/newman/how-to-perform-api-testing-in-postman-newman-tools.png
   properties:
   - type: x-website
     url: https://www.impigertech.com/resources/blogs/how-to-perform-api-testing-in-postman

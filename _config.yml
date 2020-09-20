@@ -1,10 +1,10 @@
 title: The Newman Toolbox
 description: Newman is a command-line collection runner for Postman. It allows you to effortlessly run and test a Postman collection directly from the command-line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
-image: https://kinlane-productions.s3.amazonaws.com/postman-toolboxes/assets/newman.png
-url: https://postman-toolboxes.github.io/newman
+image: https://kinlane-productions.s3.amazonaws.com/postman-toolboxes2/assets/newman.png
+url: https://postman-toolboxes2.github.io/newman
 email: help@postman.com
 
-github_user: postman-toolboxes
+github_user: postman-toolboxes2
 github_repo:  newman
 github_branch: master
 
